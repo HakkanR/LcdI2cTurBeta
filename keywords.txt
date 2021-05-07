@@ -1,0 +1,20 @@
+# Syntax Coloring Map For LCD_I2C
+
+# Datatypes (KEYWORD1)
+LcdI2cTUR	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+displayOFF	KEYWORD2
+displayON	KEYWORD2
+displayClear	KEYWORD2
+cursorON	KEYWORD2
+cursorOFF	KEYWORD2
+blinkOFF	KEYWORD2
+blinkON		KEYWORD2
+addChar		KEYWORD2
+setCursor	KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
