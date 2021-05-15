@@ -1,4 +1,4 @@
-#include "LcdI2cTUR.h"
+#include <LcdI2cTUR.h>
 LcdI2cTUR lcd(0x27);   // i2c adresiniz 0x27 den farklıysa parantez içindeki değeri değiştirin.
 byte heart[8] = {
   0b00000,
