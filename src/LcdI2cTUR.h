@@ -10,13 +10,19 @@ class LcdI2cTUR : public Print
   void displayOFF();
   void displayON();
   void displayClear();
-  void writeData(uint8_t data);
   void cursorON();
   void cursorOFF();
   void blinkON();
   void blinkOFF();
-  void addChar(uint8_t location, uint8_t charSet[]);
+  void addChar(uint8_t location, uint8_t charSet[], bool userDefined=true);
   void setCursor(uint8_t col, uint8_t row);
+  void backlightsON();
+  void backlightsOFF();
+  void goHome();
+  void autoScroll();
+  void NoAutoScroll();
+  void displayShiftLeft();
+  void displayShiftRight();
 
   virtual size_t write(uint8_t Chr);
   
@@ -25,6 +31,7 @@ class LcdI2cTUR : public Print
     void LCDWriteCmd(uint8_t data);
     void LCDWriteData(uint8_t temp);
     void setEntryMode();
+    void cursorMode();
     void InitLCD();
     
   private:
@@ -37,6 +44,8 @@ class LcdI2cTUR : public Print
     uint8_t _cursor = 2;
     uint8_t _display = 4;
     uint8_t _blink = 1;
+    uint8_t _increment = 2;
+    uint8_t _scroll = 0;
 
      bool f196 = 0;
     bool f197 = 0;
@@ -101,11 +110,5 @@ class LcdI2cTUR : public Print
       0b00000
     };
 };
-
-
-
-
-
-
 
 #endif
