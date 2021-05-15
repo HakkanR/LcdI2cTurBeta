@@ -9,18 +9,18 @@ displayOFF	KEYWORD2
 displayON	KEYWORD2
 displayClear	KEYWORD2
 cursorON	KEYWORD2
-cursorOFF KEYWORD2
+cursorOFF	KEYWORD2
 blinkOFF	KEYWORD2
 blinkON	KEYWORD2
 addChar	KEYWORD2
 setCursor	KEYWORD2
-backlightsON  KEYWORD2
-backlightsOFF KEYWORD2
-goHome  KEYWORD2
-autoScroll  KEYWORD2
-NoAutoScroll  KEYWORD2
-displayShiftLeft  KEYWORD2
-displayShiftRight KEYWORD2
+backlightsON	KEYWORD2
+backlightsOFF	KEYWORD2
+goHome	KEYWORD2
+autoScroll	KEYWORD2
+NoAutoScroll	KEYWORD2
+displayShiftLeft	KEYWORD2
+displayShiftRight	KEYWORD2
 
 # Instances (KEYWORD2)
 
